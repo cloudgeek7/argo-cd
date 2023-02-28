@@ -1,4 +1,4 @@
-FROM node:12.18.4 AS node
+FROM node:14.21.3 AS node
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     software-properties-common 
